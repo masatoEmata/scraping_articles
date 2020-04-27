@@ -1,0 +1,20 @@
+{
+  "user_profile" : {
+    "profile_path" : "C:\\Users\\P-67\\AppData\\Local\\Google\\Chrome\\User Data",
+    "profile_directory" :   "Profile 22",
+    "vitual_user_agent" : "Mozilla\/5.0 (Linux; Android 9; S5-SH) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/76.0.3809.111 Mobile Safari\/537.36"},
+  "scroll": {
+    "first_current_position" : 400,      
+    "speed" : 400,
+    "buffer": 1200
+  },
+  "data":{
+    "article": 200,
+    "tmp_file_path" : "..\\data\\",
+    "bigquery" : {
+      "dataset_id" : "emata",
+      "table_id" : "articles" 
+    }
+  },
+  "test": 0
+}
