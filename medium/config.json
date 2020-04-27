@@ -9,7 +9,7 @@
     "buffer": 1200
   },
   "data":{
-    "article": 200,
+    "size": 200,
     "tmp_file_path" : "..\\data\\",
     "bigquery" : {
       "dataset_id" : "emata",

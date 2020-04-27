@@ -41,6 +41,9 @@ def scroll(driver):
     speed = CONFIG["scroll"]["speed"]
     buffer = CONFIG["scroll"]["buffer"]
     
+    #init get data method
+    data_size = CONFIG["data"]["size"]
+    
     #TEST
     if CONFIG["test"] == 1:
         links = getLinks(driver)
@@ -57,7 +60,7 @@ def scroll(driver):
         links = getLinks(driver)
         get_link_size = len(links)
         print("get_link_size:",get_link_size)
-        if(get_link_size > 200):
+        if(get_link_size > data_size):
             break
     return links
 
